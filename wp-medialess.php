@@ -8,9 +8,7 @@
     Author URI: http://cryptic.be
     License: MIT
 */
-?>
 
-<?php
 // FYI: This plugin uses a filter and function together
 // don't remove either unless you know what you're doing
 
@@ -35,12 +33,13 @@ function medialess($content)
 // sends now-filtered content to the user 
     return $content;
 }
+
+// strip all tags from the excerpt
+$excerpt = strip_tags(get_the_excerpt());
+    echo $excerpt; 
+
+// in cases where get_the_content is used by sneaky hobbitses
+apply_filters('the_content', get_the_content( $more_link_text, $stripteaser ))
+
 ?>
-
-<!-- strip all tags from the excerpt -->
-<?php $excerpt = strip_tags(get_the_excerpt());
-    echo $excerpt; ?>
-
-<!-- in cases where get_the_content is used by sneaky hobbitses -->
-<?php apply_filters('the_content', get_the_content( $more_link_text, $stripteaser )) ?>
 
