@@ -1,8 +1,8 @@
 <?php
 /*
-    Plugin Name: WP-Imageless
+    Plugin Name: WP-Soundless
     Plugin URI: http://github.com/glamrock/wp-imageless
-    Description: Disables images in posts, comments, and RSS
+    Description: Disables HTML5 audio tag in posts
     Version: 0.1
     Author: Griffin Boyce
     Author URI: http://cryptic.be
@@ -15,18 +15,15 @@
 // don't remove either unless you know what you're doing
 
 // adds the filter
-add_filter('the_content', 'imageless',1);
-add_filter('the_content_feed', 'imageless',1);
-add_filter('the_content_rss', 'imageless',1); // legacy - before v2.7
-add_filter('comment_text', 'imageless',1);
-add_filter('comment_text_rss', 'imageless',1);
+add_filter('the_content', 'soundless',1);
+add_filter('the_content_feed', 'soundless',1);
+add_filter('the_content_rss', 'soundless',1); // legacy - before v2.7
 
 // adds the function
-function imageless($content)
+function medialess($content)
 {
- // strips images from posts
-    $content = preg_replace('#(<[/]?img.*>)#U', '', $content);
-    $content = preg_replace('#(<[/]?image.*>)#U', '', $content);
+ // strips <audio></audio> from posts
+    $content = preg_replace('#(<[/]?audio.*>)#U', '', $content);
 
 // sends now-filtered content to the user 
     return $content;

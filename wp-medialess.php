@@ -1,8 +1,8 @@
 <?php
 /*
-    Plugin Name: WP-Imageless
-    Plugin URI: http://github.com/glamrock/wp-imageless
-    Description: Disables images in posts, comments, and RSS
+    Plugin Name: WP-Medialess
+    Plugin URI: http://github.com/glamrock/wp-medialess
+    Description: Disables all media in posts, comments, and RSS
     Version: 0.1
     Author: Griffin Boyce
     Author URI: http://cryptic.be
@@ -15,18 +15,22 @@
 // don't remove either unless you know what you're doing
 
 // adds the filter
-add_filter('the_content', 'imageless',1);
-add_filter('the_content_feed', 'imageless',1);
-add_filter('the_content_rss', 'imageless',1); // legacy - before v2.7
-add_filter('comment_text', 'imageless',1);
-add_filter('comment_text_rss', 'imageless',1);
+add_filter('the_content', 'medialess',1);
+add_filter('the_content_feed', 'medialess',1);
+add_filter('the_content_rss', 'medialess',1); // legacy - before v2.7
+add_filter('comment_text', 'medialess',1);
+add_filter('comment_text_rss', 'medialess',1);
 
 // adds the function
-function imageless($content)
+function medialess($content)
 {
- // strips images from posts
+ // strips media from posts
     $content = preg_replace('#(<[/]?img.*>)#U', '', $content);
     $content = preg_replace('#(<[/]?image.*>)#U', '', $content);
+    $content = preg_replace('#(<[/]?object.*>)#U', '', $content);
+    $content = preg_replace('#(<[/]?embed.*>)#U', '', $content);
+    $content = preg_replace('#(<[/]?video.*>)#U', '', $content);
+    $content = preg_replace('#(<[/]?script.*>)#U', '', $content);
 
 // sends now-filtered content to the user 
     return $content;
