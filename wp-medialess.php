@@ -30,7 +30,7 @@ function medialess($content)
     $content = preg_replace('#(<[/]?object.*>)#U', '', $content);
     $content = preg_replace('#(<[/]?embed.*>)#U', '', $content);
     $content = preg_replace('#(<[/]?video.*>)#U', '', $content);
-    $content = preg_replace('#(<[/]?script.*>)#U', '', $content);
+    $content = preg_replace('#(<[/]?iframe.*>)#U', '', $content); // blocks youtube and various code injection
 
 // sends now-filtered content to the user 
     return $content;
