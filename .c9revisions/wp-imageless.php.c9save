@@ -1,0 +1,49 @@
+{"ts":1357142415236,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1357142420102,"patch":[[{"diffs":[[1,"add_filter('the_content', 'my_content_filter');\r\nfunction my_content_filter($content)\r\n{\r\n    $content = preg_replace('#(<[/]?img.*>)#U', '', $content);\r\n    return $content;\r\n}"]],"start1":0,"start2":0,"length1":0,"length2":177}]],"length":177,"saved":false}
+{"ts":1357142713324,"patch":[[{"diffs":[[1,"\r\n"],[0,"add_filt"]],"start1":0,"start2":0,"length1":8,"length2":10},{"diffs":[[0,"tent', '"],[-1,"my_content_filter"],[1,"imageless"],[0,"');\r\nfun"]],"start1":21,"start2":21,"length1":33,"length2":25}]],"length":171,"saved":false}
+{"ts":1357142728398,"patch":[[{"diffs":[[1,"<? p"],[0,"\r\nadd_fi"]],"start1":0,"start2":0,"length1":8,"length2":12}]],"length":175,"saved":false}
+{"ts":1357142729741,"patch":[[{"diffs":[[0,"<?"],[-1," p"],[0,"\r\nadd_fi"]],"start1":0,"start2":0,"length1":12,"length2":10}]],"length":173,"saved":false}
+{"ts":1357142731429,"patch":[[{"diffs":[[0,"<?"],[1,"php"],[0,"\r\nadd_fi"]],"start1":0,"start2":0,"length1":10,"length2":13}]],"length":176,"saved":false}
+{"ts":1357142734405,"patch":[[{"diffs":[[0,"tent;\r\n}"],[1,"\r\n\r\n?>"]],"start1":168,"start2":168,"length1":8,"length2":14}]],"length":182,"saved":false}
+{"ts":1357142780790,"patch":[[{"diffs":[[0,"\r\n}\r\n\r\n?"],[-1,">"]],"start1":173,"start2":173,"length1":9,"length2":8}]],"length":181,"saved":false}
+{"ts":1357142787213,"patch":[[{"diffs":[[0,"\r\n}\r\n\r\n?"],[1,">\r\n"]],"start1":173,"start2":173,"length1":8,"length2":11}]],"length":184,"saved":false}
+{"ts":1357142824791,"patch":[[{"diffs":[[0,"ion "],[-1,"my_content_filter"],[1,"image"],[0,"($co"]],"start1":53,"start2":53,"length1":25,"length2":13}]],"length":172,"saved":false}
+{"ts":1357142827004,"patch":[[{"diffs":[[0,"on image"],[1,"less"],[0,"($conten"]],"start1":54,"start2":54,"length1":16,"length2":20}]],"length":176,"saved":false}
+{"ts":1357143047165,"patch":[[{"diffs":[[1,"\r\n\r\n"],[0,"<?php\r\na"]],"start1":0,"start2":0,"length1":8,"length2":12}]],"length":180,"saved":false}
+{"ts":1357143048602,"patch":[[{"diffs":[[1,"<?php\r\n/*\r\nPlugin Name: Name Of The Plugin\r\nPlugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates\r\nDescription: A brief description of the Plugin.\r\nVersion: The Plugin's Version Number, e.g.: 1.0\r\nAuthor: Name Of The Plugin Author\r\nAuthor URI: http://URI_Of_The_Plugin_Author\r\nLicense: A \"Slug\" license name e.g. GPL2\r\n*/\r\n?>"],[0,"\r\n\r\n<?php\r\na"]],"start1":0,"start2":0,"length1":12,"length2":344}]],"length":512,"saved":false}
+{"ts":1357143052661,"patch":[[{"diffs":[[0,"hp\r\n/*\r\n"],[1,"    "],[0,"Plugin N"]],"start1":3,"start2":3,"length1":16,"length2":20}]],"length":516,"saved":false}
+{"ts":1357143055453,"patch":[[{"diffs":[[0,"Plugin\r\n"],[1,"    "],[0,"Plugin U"]],"start1":40,"start2":40,"length1":16,"length2":20}]],"length":520,"saved":false}
+{"ts":1357143057739,"patch":[[{"diffs":[[0,"pdates\r\n"],[1,"    "],[0,"Descript"]],"start1":106,"start2":106,"length1":16,"length2":20}]],"length":524,"saved":false}
+{"ts":1357143059132,"patch":[[{"diffs":[[0,"lugin.\r\n"],[1,"    "],[0,"Version:"]],"start1":159,"start2":159,"length1":16,"length2":20}]],"length":528,"saved":false}
+{"ts":1357143061557,"patch":[[{"diffs":[[0,".: 1.0\r\n"],[1,"    "],[0,"Author: "]],"start1":212,"start2":212,"length1":16,"length2":20}]],"length":532,"saved":false}
+{"ts":1357143063983,"patch":[[{"diffs":[[0,"Author\r\n"],[1,"    "],[0,"Author U"]],"start1":251,"start2":251,"length1":16,"length2":20}]],"length":536,"saved":false}
+{"ts":1357143065561,"patch":[[{"diffs":[[0,"Author\r\n"],[1,"    "],[0,"License:"]],"start1":300,"start2":300,"length1":16,"length2":20}]],"length":540,"saved":false}
+{"ts":1357143081962,"patch":[[{"diffs":[[0,"p://"],[-1,"URI_Of_The_Plugin_Author"],[1,"cryptic.be"],[0,"\r\n  "]],"start1":278,"start2":278,"length1":32,"length2":18}]],"length":526,"saved":false}
+{"ts":1357143087327,"patch":[[{"diffs":[[0,"on: "],[-1,"The Plugin's Version Number, e.g.: 1."],[0,"0"],[1,"."],[0,"\r\n  "]],"start1":176,"start2":176,"length1":46,"length2":10}]],"length":490,"saved":false}
+{"ts":1357143089602,"patch":[[{"diffs":[[0,"sion: 0."],[1,"1"],[0,"\r\n    Au"]],"start1":174,"start2":174,"length1":16,"length2":17}]],"length":491,"saved":false}
+{"ts":1357143096429,"patch":[[{"diffs":[[0,"or: "],[-1,"Name Of The Plugin Author"],[1,"Griffin Boyce"],[0,"\r\n  "]],"start1":193,"start2":193,"length1":33,"length2":21}]],"length":479,"saved":false}
+{"ts":1357143157950,"patch":[[{"diffs":[[0,"tent);\r\n"],[-1,"    "],[1,"\r\n"],[0,"return $"]],"start1":440,"start2":440,"length1":20,"length2":18}]],"length":477,"saved":false}
+{"ts":1357143161316,"patch":[[{"diffs":[[0,"tent);\r\n"],[-1,"\r\n"],[1,"    "],[0,"return $"]],"start1":440,"start2":440,"length1":18,"length2":20}]],"length":479,"saved":false}
+{"ts":1357143164213,"patch":[[{"diffs":[[0,"tent);\r\n"],[1,"        $content = preg_replace('#(<[/]?img.*>)#U', '', $content);\r\n"],[0,"    retu"]],"start1":440,"start2":440,"length1":16,"length2":84}]],"length":547,"saved":false}
+{"ts":1357143167235,"patch":[[{"diffs":[[0,");\r\n        "],[-1,"$"],[0,"content = pr"]],"start1":444,"start2":444,"length1":25,"length2":24}]],"length":546,"saved":false}
+{"ts":1357143168833,"patch":[[{"diffs":[[0,"        "],[1,"$"],[0,"content "]],"start1":448,"start2":448,"length1":16,"length2":17}]],"length":547,"saved":false}
+{"ts":1357143171741,"patch":[[{"diffs":[[0,"tent);\r\n"],[-1,"    "],[0,"    $con"]],"start1":440,"start2":440,"length1":20,"length2":16}]],"length":543,"saved":false}
+{"ts":1357143175444,"patch":[[{"diffs":[[0,"eplace('#(<[/]?i"],[-1,"mg"],[0,".*>)#U', '', $co"]],"start1":469,"start2":469,"length1":34,"length2":32}]],"length":541,"saved":false}
+{"ts":1357143176053,"patch":[[{"diffs":[[0,"#(<[/]?i"],[1,"ma"],[0,".*>)#U',"]],"start1":477,"start2":477,"length1":16,"length2":18}]],"length":543,"saved":false}
+{"ts":1357143177471,"patch":[[{"diffs":[[0,"<[/]?ima"],[1,"ge"],[0,".*>)#U',"]],"start1":479,"start2":479,"length1":16,"length2":18}]],"length":545,"saved":false}
+{"ts":1357143190584,"patch":[[{"diffs":[[0,"me: "],[-1,"Name Of The Plugin"],[1,"WP-Im"],[0,"\r\n  "]],"start1":24,"start2":24,"length1":26,"length2":13}]],"length":532,"saved":false}
+{"ts":1357143192962,"patch":[[{"diffs":[[0,"e: WP-Im"],[1,"ageless"],[0,"\r\n    Pl"]],"start1":25,"start2":25,"length1":16,"length2":23}]],"length":539,"saved":false}
+{"ts":1357143200536,"patch":[[{"diffs":[[0,"p://"],[-1,"URI_Of_Page_Describing_Plugin_and_Updates"],[1,"github.com/"],[0,"\r\n  "]],"start1":61,"start2":61,"length1":49,"length2":19}]],"length":509,"saved":false}
+{"ts":1357143201280,"patch":[[{"diffs":[[0,"hub.com/"],[1,"gl"],[0,"\r\n    De"]],"start1":68,"start2":68,"length1":16,"length2":18}]],"length":511,"saved":false}
+{"ts":1357143203417,"patch":[[{"diffs":[[0,"b.com/gl"],[1,"amrock/wp-"],[0,"\r\n    De"]],"start1":70,"start2":70,"length1":16,"length2":26}]],"length":521,"saved":false}
+{"ts":1357143204988,"patch":[[{"diffs":[[0,"rock/wp-"],[1,"i"],[0,"\r\n    De"]],"start1":80,"start2":80,"length1":16,"length2":17}]],"length":522,"saved":false}
+{"ts":1357143205564,"patch":[[{"diffs":[[0,"ock/wp-i"],[1,"m"],[0,"\r\n    De"]],"start1":81,"start2":81,"length1":16,"length2":17}]],"length":523,"saved":false}
+{"ts":1357143207532,"patch":[[{"diffs":[[0,"ck/wp-im"],[1,"ageless"],[0,"\r\n    De"]],"start1":82,"start2":82,"length1":16,"length2":23}]],"length":530,"saved":false}
+{"ts":1357143211638,"patch":[[{"diffs":[[0," Plugin."],[-1,"\r\n"],[0,"    Vers"]],"start1":142,"start2":142,"length1":18,"length2":16}]],"length":528,"saved":false}
+{"ts":1357143214061,"patch":[[{"diffs":[[0," Plugin."],[1,"\r\n"],[0,"    Vers"]],"start1":142,"start2":142,"length1":16,"length2":18}]],"length":530,"saved":false}
+{"ts":1357143217995,"patch":[[{"diffs":[[0,"ion:"],[-1," A brief description of the Plugin."],[0,"\r\n  "]],"start1":111,"start2":111,"length1":43,"length2":8}]],"length":495,"saved":false}
+{"ts":1357143219612,"patch":[[{"diffs":[[0,"ription:"],[1," Kills "],[0,"\r\n    Ve"]],"start1":107,"start2":107,"length1":16,"length2":23}]],"length":502,"saved":false}
+{"ts":1357143221837,"patch":[[{"diffs":[[0,": Kills "],[1,"images "],[0,"\r\n    Ve"]],"start1":114,"start2":114,"length1":16,"length2":23}]],"length":509,"saved":false}
+{"ts":1357143231145,"patch":[[{"diffs":[[0," images "],[1,"in the content area"],[0,"\r\n    Ve"]],"start1":121,"start2":121,"length1":16,"length2":35}]],"length":528,"saved":false}
+{"ts":1357143607934,"patch":[[{"diffs":[[0,"ent area"],[1," and comments"],[0,"\r\n    Ve"]],"start1":140,"start2":140,"length1":16,"length2":29}]],"length":541,"saved":false}
+{"ts":1357144378076,"patch":[[{"diffs":[[0,"se: "],[-1,"A \"Slug\" license name e.g. GPL2"],[1,"MIT"],[0,"\r\n*/"]],"start1":252,"start2":252,"length1":39,"length2":11}]],"length":513,"saved":false}
