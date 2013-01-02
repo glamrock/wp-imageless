@@ -20,7 +20,7 @@ add_filter('the_content_feed', 'soundless',1);
 add_filter('the_content_rss', 'soundless',1); // legacy - before v2.7
 
 // adds the function
-function medialess($content)
+function soundless($content)
 {
  // strips <audio></audio> from posts
     $content = preg_replace('#(<[/]?audio.*>)#U', '', $content);
